@@ -1,0 +1,259 @@
+/* Global */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.container{
+    width: 1440px;
+    margin: 0 auto;
+}
+
+.clear{
+    clear: both;
+}
+
+.header{
+    padding: 20px 0;
+}
+
+.logo{
+    font-size: 20px;
+    text-decoration: none;
+    text-align: center;
+}
+
+.logo i{
+    width: 46px;
+    height: 46px;
+    color:#f2c305;
+    line-height: 46px;
+    border-radius: 50%;
+    background-color: #182548;
+    font-size: 20px;
+    display: inline-block;
+    vertical-align: bottom;
+}
+
+.header ul{
+    list-style: none;
+    margin: 20px 0;
+}
+
+.header li{
+    display: inline;
+    margin: 0 20px;
+}
+
+.header a{
+    text-decoration: none;
+    color: black;
+    font-size: 25px;
+}
+
+/* hero */
+
+.hero{
+    background-image: url(./images/2.jpg);
+    height: 800px;
+    background-repeat: no-repeat;
+    
+}
+
+/* Intro */
+.intro{
+   margin-top: 30px; 
+}
+
+.intro .left{
+    float: left;
+    width: 50%;
+    
+}
+
+.intro .right{
+    float: left;
+    width: 50%;
+    
+}
+
+.intro button{
+    background-color: #f2c305; 
+    border: none;
+    color: black;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 5px;
+}
+
+/* css time-stand */
+
+.time-stand {
+    margin-top: 30px;
+    background-color: rgb(241, 237, 237);
+    height: 200px;
+    padding: 40px 0;
+}
+
+.time-stand .time-stand_item{
+    float: left;
+    width: calc(100%/4);
+    text-align: center;
+}
+
+.time-stand .item_num h3{
+    font-size: 50px;
+}
+
+.time-stand .item_text p{
+    font-size: 20px;
+}
+
+/* css product */
+.product{
+    margin-top: 30px;
+}
+.product_item{
+    float: left;
+    width: calc(100%/4);
+    text-align: center;
+    padding: 10px;
+    box-sizing: border-box;
+    
+}
+
+.product .item_bg{
+    background-color: #182548;
+    padding: 40px 0;
+}
+
+.product .item_bg i{
+    color: white;
+    font-size: 30px;
+}
+
+.product .item_bg p{
+    color: white;
+    line-height: 40px;
+}
+
+/* css Post */
+.post{
+    background-color: rgb(241, 237, 237);
+    margin-top: 30px;
+    padding: 40px 0;
+}
+
+.post_item{
+    float: left;
+    width: calc(100%/2);
+    padding: 0 30px;
+    box-sizing: border-box;
+}
+
+.post .post_item_title{
+    margin-bottom: 40px;
+}
+
+.post .post_item_title h2{
+    font-size: 40px;
+}
+
+.post .post_border{
+    border-bottom: 1px solid black;
+    margin: 0 10px;
+}
+
+.post .post_item .post_item_content{
+    padding: 30px ;
+    background-color: white;
+}
+
+.post .post_item .post_item_content .item_img{
+    float: left;
+    width: calc(100%/4);
+    margin-right: 20px;
+}
+
+.post .post_item .post_item_content .item_text{
+    float: left;
+    width: calc(100%/2);
+    
+}
+
+.post .post_item .post_item_content .item_img img{
+    width: 100%;
+}
+
+.post .post_item table td {
+    border: 1px solid black;
+    width: 100px;
+    text-align: center;
+    padding: 10px;
+    line-height: 30px;
+}
+
+.post .post_item td:nth-child(1) {
+    background-color: #f2c305;
+}
+
+.post .post_item_btn {
+    float: right;
+    margin-top: 20px;
+
+    background-color: #f2c305; 
+    border: none;
+    color: black;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    border-radius: 5px;
+}
+
+/* css footer */
+.footer{
+    background-color: #182548;
+    color: white;
+    padding: 40px 0;
+}
+
+.footer .footer_item{
+    float:left;
+    width: calc(100%/3);
+}
+
+.footer .footer_text h3{
+    padding-top: 30px;
+    padding-bottom: 20px;
+    font-size: 30px;
+}
+
+.footer .footer_text i{
+    float: left;
+    font-size: 20px;
+    margin-right: 10px;
+    line-height: 50px; 
+    
+}
+
+.footer .footer_text p{
+    font-size: 20px;
+    line-height: 50px;   
+}
+
+
+
+
+
+
+
+
+
+
+
